@@ -5,6 +5,7 @@ export const run_app: () => void;
 export const __wbindgen_exn_store: (a: number) => void;
 export const __externref_table_alloc: () => number;
 export const __wbindgen_export_2: WebAssembly.Table;
+<<<<<<< HEAD
 export const __externref_drop_slice: (a: number, b: number) => void;
 export const __wbindgen_free: (a: number, b: number, c: number) => void;
 export const __wbindgen_malloc: (a: number, b: number) => number;
@@ -14,3 +15,8 @@ export const closure315_externref_shim: (a: number, b: number, c: any) => void;
 export const closure407_externref_shim: (a: number, b: number, c: any) => void;
 export const closure427_externref_shim: (a: number, b: number, c: any) => void;
 export const __wbindgen_start: () => void;
+=======
+export function _dyn_core__ops__function__FnMut___A____Output___R_as_wasm_bindgen__closure__WasmClosure___describe__invoke__h0361729b51c11d9d(a: number, b: number, c: number): void;
+export function __wbindgen_exn_store(a: number): void;
+export function __wbindgen_start(): void;
+>>>>>>> 23951a819dc77f4614b53d8ebdf4b7931fc8968f

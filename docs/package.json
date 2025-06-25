@@ -1,16 +1,15 @@
 {
   "name": "portfolio",
+  "type": "module",
   "version": "0.1.0",
   "files": [
     "portfolio_bg.wasm",
     "portfolio.js",
-    "portfolio_bg.js",
     "portfolio.d.ts"
   ],
-  "module": "portfolio.js",
+  "main": "portfolio.js",
   "types": "portfolio.d.ts",
   "sideEffects": [
-    "./portfolio.js",
     "./snippets/*"
   ]
 }
